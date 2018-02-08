@@ -15,14 +15,14 @@ public class Main {
        System.out.println("Enter operation:");
        operation = scanner.next();
        if ("+".equals(operation)) {
-           answer = add(a, b);
+           answer = sub(a, b);
            System.out.println("Answer is: " + answer);
        } else {
            System.out.println("Unsupported operation");
        }
    }
 
-   private static int add(int a, int b) {
-       return a + b;
+   private static int sub(int a, int b) {
+       return a - b;
    }
 }
